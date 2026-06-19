@@ -19,7 +19,8 @@ export const profile = {
   name: "Kris Son",
   role: "Data Science + Business student, analyst, and research assistant",
   location: "Atlanta, Georgia",
-  edition: "Portfolio Gazette",
+  edition: "보니",
+  publication: "Portfolio Gazette",
   headline: "Turning messy data, research questions, and product signals into clearer decisions.",
   intro:
     "I study Data Science and Business at Emory University, where I work across analytics, research, and strategy. My work spans healthcare data cleaning, investment research, behavioral lab operations, and digital marketing.",

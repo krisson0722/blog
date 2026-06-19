@@ -13,7 +13,7 @@ export function NewspaperHeader({ eyebrow, title }: NewspaperHeaderProps) {
       <h1>{title}</h1>
       <div className="masthead-rule">
         <Link href="/">Front Page</Link>
-        <span>{profile.edition}</span>
+        <span>{profile.publication}</span>
         <Link href="/gallery">Gallery</Link>
       </div>
     </header>

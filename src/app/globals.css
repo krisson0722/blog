@@ -2,6 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-display: swap;
+  unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-2ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-display: swap;
+  unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+  unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-display: swap;
+  unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Paperozi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-9Black.woff2") format("woff2");
+  font-weight: 900;
+  font-display: swap;
+  unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
 :root {
   --paper: #f2ecd9;
   --paper-deep: #ded3b9;
@@ -15,16 +87,14 @@
 }
 
 html {
-  background: #24211c;
+  background: var(--paper);
 }
 
 body {
   margin: 0;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 20% 10%, rgba(255, 255, 255, 0.18), transparent 24rem),
-    linear-gradient(135deg, #211f1b, #3a352d);
-  font-family: Georgia, "Times New Roman", serif;
+  background: var(--paper);
+  font-family: "Paperozi", Georgia, "Times New Roman", serif;
 }
 
 body::before {
@@ -48,17 +118,17 @@ a {
 }
 
 .newspaper-shell {
-  width: min(1160px, calc(100% - 32px));
-  min-height: calc(100vh - 32px);
-  margin: 16px auto;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
   padding: clamp(18px, 3vw, 38px);
   background:
     linear-gradient(rgba(22, 21, 20, 0.035) 1px, transparent 1px),
     linear-gradient(90deg, rgba(22, 21, 20, 0.025) 1px, transparent 1px),
     var(--paper);
   background-size: 100% 28px, 28px 100%, auto;
-  border: 1px solid rgba(22, 21, 20, 0.7);
-  box-shadow: 0 18px 60px rgba(20, 18, 14, 0.28);
+  border: 0;
+  box-shadow: none;
 }
 
 .masthead {
@@ -70,12 +140,23 @@ a {
 
 .masthead h1 {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Paperozi", Georgia, "Times New Roman", serif;
   font-size: clamp(3.2rem, 9vw, 7.3rem);
   line-height: 0.9;
   letter-spacing: 0;
   text-transform: uppercase;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.masthead-subtitle {
+  margin: 10px 0 0;
+  border-top: 1px solid var(--rule);
+  padding-top: 12px;
+  color: var(--muted);
+  font-size: clamp(1.2rem, 2vw, 1.7rem);
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .compact-masthead h1 {
@@ -310,8 +391,8 @@ figcaption strong {
 
 @media (max-width: 820px) {
   .newspaper-shell {
-    width: min(100% - 18px, 680px);
-    margin: 9px auto;
+    width: 100%;
+    margin: 0;
     padding: 18px;
   }
 

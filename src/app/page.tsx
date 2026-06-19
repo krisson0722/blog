@@ -10,13 +10,9 @@ export default async function Home() {
   return (
     <main className="newspaper-shell">
       <header className="masthead">
-        <p className="kicker">{profile.location} / Personal Edition / Since 2026</p>
+        <p className="kicker">2026-06-19</p>
         <h1>{profile.edition}</h1>
-        <div className="masthead-rule">
-          <span>{profile.name}</span>
-          <span>{new Date().getFullYear()}</span>
-          <span>{profile.role}</span>
-        </div>
+        <p className="masthead-subtitle">{profile.publication}</p>
       </header>
 
       <section className="front-grid">
