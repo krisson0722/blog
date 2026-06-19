@@ -16,40 +16,40 @@ export type Artwork = {
 };
 
 export const profile = {
-  name: "Your Name",
-  role: "Developer, writer, and visual thinker",
-  location: "Seoul, Korea",
+  name: "Kris Son",
+  role: "Data Science + Business student, analyst, and research assistant",
+  location: "Atlanta, Georgia",
   edition: "Portfolio Gazette",
-  headline: "Building thoughtful software with a sketchbook close at hand.",
+  headline: "Turning messy data, research questions, and product signals into clearer decisions.",
   intro:
-    "This is a newspaper-style portfolio for your writing, projects, and artwork. Replace this copy with your own story when you are ready.",
+    "I study Data Science and Business at Emory University, where I work across analytics, research, and strategy. My work spans healthcare data cleaning, investment research, behavioral lab operations, and digital marketing.",
   bio:
-    "Use this space for a sharper personal introduction: what you build, what you care about, and the kind of work you want people to remember.",
-  email: "hello@example.com",
+    "I like projects that ask for both careful structure and sharp judgment: building datasets people can trust, finding patterns in complex systems, and turning analysis into a story that teams can act on.",
+  email: "kris.son@emory.edu",
   socials: [
     { label: "GitHub", href: "https://github.com/krisson0722" },
-    { label: "Email", href: "mailto:hello@example.com" }
+    { label: "Email", href: "mailto:kris.son@emory.edu" }
   ]
 };
 
 export const projects: Project[] = [
   {
-    title: "Project Headline",
-    dek: "A concise description of a project, case study, or product you want to feature.",
+    title: "Healthcare Data Operations",
+    dek: "Engineered complex data cleaning workflows for nursing licensure, graduation rates, and internal employment metrics, supporting executive-level analysis at Emory.",
     year: "2026",
-    stack: ["Next.js", "TypeScript", "Design"]
+    stack: ["Data Cleaning", "Power BI", "Healthcare Analytics"]
   },
   {
-    title: "Second Feature",
-    dek: "Swap this with another project, experiment, or collaboration when your data is ready.",
+    title: "Digital Asset Investment Research",
+    dek: "Analyzed network catalysts, validator developments, systemic risk, and Solana valuation scenarios through DCF modeling and comparative market research.",
+    year: "2026",
+    stack: ["Investment Research", "DCF Modeling", "Market Analysis"]
+  },
+  {
+    title: "Global Cloud MSP Content Strategy",
+    dek: "Analyzed social engagement metrics, shaped brand concepts, and migrated external blog posts to improve content consistency and accessibility.",
     year: "2025",
-    stack: ["React", "Content", "UX"]
-  },
-  {
-    title: "Archive Note",
-    dek: "A smaller item can still feel editorial when it has a clear angle and a clean summary.",
-    year: "2024",
-    stack: ["Prototype", "Writing"]
+    stack: ["Engagement Analytics", "Content Strategy", "Brand Research"]
   }
 ];
 
