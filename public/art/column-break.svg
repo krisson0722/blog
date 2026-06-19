@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+  <title id="title">Column Break</title>
+  <desc id="desc">Geometric newspaper column placeholder artwork.</desc>
+  <rect width="900" height="680" fill="#efe6cf"/>
+  <g fill="#171514">
+    <rect x="116" y="120" width="120" height="438"/>
+    <rect x="286" y="120" width="86" height="438"/>
+    <rect x="426" y="120" width="210" height="90"/>
+    <rect x="426" y="264" width="210" height="110"/>
+    <rect x="426" y="430" width="210" height="128"/>
+    <rect x="686" y="120" width="92" height="438"/>
+  </g>
+  <g stroke="#efe6cf" stroke-width="10">
+    <path d="M142 160h70M142 210h70M142 260h70M142 310h70M142 360h70M142 410h70M142 460h70"/>
+    <path d="M306 166h46M306 228h46M306 290h46M306 352h46M306 414h46M306 476h46"/>
+    <path d="M708 168h48M708 230h48M708 292h48M708 354h48M708 416h48M708 478h48"/>
+  </g>
+</svg>

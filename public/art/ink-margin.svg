@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+  <title id="title">Ink Margin</title>
+  <desc id="desc">Black ink margin study placeholder on paper.</desc>
+  <rect width="900" height="680" fill="#efe6cf"/>
+  <g fill="none" stroke="#171514" stroke-linecap="round">
+    <path d="M172 512c82-130 144-256 106-354" stroke-width="22"/>
+    <path d="M318 540c178-134 274-276 266-420" stroke-width="18"/>
+    <path d="M516 566c74-86 142-194 192-328" stroke-width="15"/>
+    <path d="M156 164c180 46 378 48 590 6" stroke-width="11"/>
+    <path d="M184 300c160 36 332 34 518-6" stroke-width="9"/>
+    <path d="M206 426c140 28 286 24 438-10" stroke-width="8"/>
+  </g>
+  <circle cx="655" cy="444" r="48" fill="#171514"/>
+</svg>

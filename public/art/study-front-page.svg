@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+  <title id="title">Study for a Front Page</title>
+  <desc id="desc">Black ink abstract portrait placeholder on paper.</desc>
+  <rect width="900" height="680" fill="#efe6cf"/>
+  <path d="M120 112h660v456H120z" fill="none" stroke="#171514" stroke-width="12"/>
+  <path d="M285 520c86-176 78-294 24-352 112-38 258-12 312 104 57 122-26 226-106 270-76 42-158 32-230-22z" fill="#171514"/>
+  <path d="M322 242c76 28 180 30 256 0M312 336c100 40 214 39 292-4M358 438c54 22 130 20 184-2" fill="none" stroke="#efe6cf" stroke-width="22" stroke-linecap="round"/>
+  <path d="M166 162h72M166 210h80M166 258h62M676 162h58M654 210h80M664 258h70" stroke="#171514" stroke-width="10" stroke-linecap="round"/>
+</svg>
